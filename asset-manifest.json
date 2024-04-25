@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/VSAC_xStrk_Prob/static/css/main.0f8802d4.css",
+    "main.js": "/VSAC_xStrk_Prob/static/js/main.e9f5a84d.js",
+    "static/js/453.ed3810f9.chunk.js": "/VSAC_xStrk_Prob/static/js/453.ed3810f9.chunk.js",
+    "static/media/pitch_probs.csv": "/VSAC_xStrk_Prob/static/media/pitch_probs.bc49dfed4a359189dcc0.csv",
+    "static/media/xstrk_by_zone.csv": "/VSAC_xStrk_Prob/static/media/xstrk_by_zone.96f1abba3a88f3d255b2.csv",
+    "index.html": "/VSAC_xStrk_Prob/index.html",
+    "main.0f8802d4.css.map": "/VSAC_xStrk_Prob/static/css/main.0f8802d4.css.map",
+    "main.e9f5a84d.js.map": "/VSAC_xStrk_Prob/static/js/main.e9f5a84d.js.map",
+    "453.ed3810f9.chunk.js.map": "/VSAC_xStrk_Prob/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f8802d4.css",
+    "static/js/main.e9f5a84d.js"
+  ]
+}
