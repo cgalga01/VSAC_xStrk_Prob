@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/VSAC_xStrk_Prob/static/css/main.7edfa7ad.css",
-    "main.js": "/VSAC_xStrk_Prob/static/js/main.5343db38.js",
+    "main.js": "/VSAC_xStrk_Prob/static/js/main.8c5f88d9.js",
     "static/js/453.ed3810f9.chunk.js": "/VSAC_xStrk_Prob/static/js/453.ed3810f9.chunk.js",
     "static/media/pitch_probs.csv": "/VSAC_xStrk_Prob/static/media/pitch_probs.97b5f94d9a354a01382b.csv",
     "static/media/xstrk_by_zone.csv": "/VSAC_xStrk_Prob/static/media/xstrk_by_zone.96f1abba3a88f3d255b2.csv",
     "index.html": "/VSAC_xStrk_Prob/index.html",
     "main.7edfa7ad.css.map": "/VSAC_xStrk_Prob/static/css/main.7edfa7ad.css.map",
-    "main.5343db38.js.map": "/VSAC_xStrk_Prob/static/js/main.5343db38.js.map",
+    "main.8c5f88d9.js.map": "/VSAC_xStrk_Prob/static/js/main.8c5f88d9.js.map",
     "453.ed3810f9.chunk.js.map": "/VSAC_xStrk_Prob/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7edfa7ad.css",
-    "static/js/main.5343db38.js"
+    "static/js/main.8c5f88d9.js"
   ]
 }
