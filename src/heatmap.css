@@ -1,0 +1,53 @@
+
+.canvas-container {
+    display: flex; /* Center horizontally */
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right:25px;
+    height: 700px; /* Keeping vertical height longer */
+    width: 1450px; /* Set a fixed width */
+
+}
+
+.fixed-size-canvas {
+    /* Set the fixed size */
+    width: 400px;
+    height: 400px;
+    /* Ensure no auto-scaling */
+    display: block;
+  }
+  
+  .suggestion-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; /* So it appears below the input field */
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 10;
+    width: 200px; /* Adjust as needed */
+  }
+  
+  .suggestion-list li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestion-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .explanation {
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Center the text */
+    margin: 0 auto; /* Center within parent */
+    max-width: 600px; /* Control the maximum width of the paragraph */
+    padding: 10px; /* Add padding for space around the text */
+    line-height: 1.6; /* Increase line spacing for readability */
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border: 1px solid #ddd; /* Light border for definition */
+    border-radius: 4px; /* Slight rounding of corners */
+}
+  
+ 

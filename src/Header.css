@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Georgia&display=swap');
+
+/* CSS for my about page */
+
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202121;
+  height:70x;
+}
+
+/* for menu bar */
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+  height: 50px;
+}
+
+/* Styling for menu items */
+.nav-items a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 12px 16px;
+  position: relative;
+}
+
+/* hover effects */
+.nav-items a:hover {
+  background-color: #585858;
+  text-decoration-line: underline;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #585858;
+  text-decoration-line: underline;
+}

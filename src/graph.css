@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Soft background color */
+    color: #333; /* Dark text color for good contrast */
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.container {
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for breathing space */
+}
+
+.controls {
+    display: flex;
+    justify-content: center; /* Center the control groups */
+    align-items: center; /* Align vertically at center */
+    gap: 20px; /* Space between control groups */
+    padding: 25px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column; /* Vertical alignment for labels and inputs */
+}
+
+
+.control-group label {
+    font-weight: bold; /* Bold labels for visibility */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.control-group select {
+    padding: 5px; /* Padding for input */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for a modern look */
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #fff; /* White background for the canvas */
+    border: 1px solid #ddd; /* Light border for definition */
+    border-radius: 5px; /* Slight rounding of edges */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.fixed-size-canvas {
+    /* Ensure the canvas is centered within the parent */
+    display: block; 
+    width: 100%; /* Take full width */
+    height: 100%; /* Take full height */
+}
+
+
+.explanation {
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Center the text */
+    margin: 0 auto; /* Center within parent */
+    max-width: 600px; /* Control the maximum width of the paragraph */
+    padding: 10px; /* Add padding for space around the text */
+    line-height: 1.6; /* Increase line spacing for readability */
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border: 1px solid #ddd; /* Light border for definition */
+    border-radius: 4px; /* Slight rounding of corners */
+}
+
+.clear-filters-button {
+    padding: 10px 20px; /* Add padding for comfortable click */
+    background-color: #f44336; /* Red background for the button */
+    color: white; /* White text for contrast */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Change cursor to indicate clickability */
+    margin: 10px; /* Space around the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.clear-filters-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+

@@ -1,0 +1,55 @@
+/* Base styling for the footer */
+.footer {
+    background-color: #f8f8f8; /* Light background for contrast */
+    border-top: 1px solid #e1e1e1; /* Optional border for visual separation */
+  }
+  
+  /* Flexbox container for organizing items in the footer */
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 80px;
+  }
+  
+  /* Container for the logo */
+  .logo-container {
+    flex: 1; /* Takes one part of the available space */
+    text-align: center; /* Align to the left for better placement */
+  }
+  
+  /* Styling for the logo image */
+  .logo-image {
+    height: 200px; /* Increase height for a larger logo */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Container for the names */
+  .names-container {
+    flex: 1; /* Takes one part of the available space */
+    text-align: center; /* Center text within the container */
+  }
+    /* Container for the names */
+  .names-container p{
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container for the GitHub icon */
+  .github-container {
+    flex: 1; /* Takes one part of the available space */
+    text-align: center; /* Align content to the right */
+  }
+  
+  /* Styling for the GitHub icon */
+  .github-container a {
+    color: #333; /* Color of the GitHub icon */
+    font-size: 100px; /* Increase size for better visibility */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    
+  }
+  
+  .github-container a:hover {
+    color: #555; /* Change color on hover for visual feedback */
+  }
+  
